@@ -12,9 +12,13 @@ export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {/* Theme Toggle */}
-      <ThemeToggle />
+    <div className="fixed top-4 right-4 z-50">
+  <ThemeToggle />
+</div>
+
       {/* Background Effects */}
-      <StarBackground />
+     <StarBackground className="absolute inset-0 -z-10" />
+
 
       {/* Navbar */}
       <Navbar />
