@@ -3,31 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "AI CHATBOT",
-    description: "An ai chatbot usinf react and gemini api.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Googlr Gemini Api"],
-    demoUrl: "https://ai-chatbot-q4f0.onrender.com/",
+    title: "",
+    description: "A social media Application",
+    image: "/projects/Social.png",
+    tags: ["React", "TailwindCSS", "Node.js", "Mongodb"],
+    demoUrl: "https://social-ouxf.onrender.com/",
     
   },
   {
     id: 2,
-    title: "GOOGLE SEARCH",
-    description:
-      "Mimicking the function of google search by google-search api",
-    image: "/projects/project2.png",
-    tags: ["React", "TailwindCSS", "Google-search api"],
-    demoUrl: "https://sambit-google.netlify.app/",
+    title: "",
+    description: "A music player appication",
+    image: "/projects/Audio.png",
+    tags: ["React", "TailwindCSS", "Node.js", "Mongodb"],
+    demoUrl: "https://yt-clone-kofa.onrender.com/",
      
   },
   {
     id: 3,
-    title: "SONIC GAME",
+    title: "",
     description:
-      "A retro based 2d game by Kplay library.",
-    image: "/projects/project3.png",
-    tags: ["Kplay", "Javascript"],
-    demoUrl: "https://sambitgame.netlify.app/",
+      "Youtube like platform",
+    image: "/projects/Video.png",
+    tags: ["React", "Node.js", "Tailwindcss", "Mongodb"],
+    demoUrl: "https://audio-player-rkod.onrender.com/",
     githubUrl: "#",
   },
 ];

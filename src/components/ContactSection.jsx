@@ -23,7 +23,12 @@ export const ContactSection = () => {
     };
 
     try {
-      await axios.post("https://getform.io/f/bgddlmea", userInfo);
+      // Use relative path - works in production with Vercel's /api routes
+      // For local dev, you'll need to run Vercel dev or use a proxy
+     const apiUrl = "http://localhost:5000/api/send-email";
+
+      
+      await axios.post(apiUrl, userInfo);
       toast({
         title: "Success",
         description: "Your message has been sent successfully!",
@@ -34,7 +39,7 @@ export const ContactSection = () => {
       console.error(error);
       toast({
         title: "Error",
-        description: "Failed to send your message. Please try again.",
+        description: error.response?.data?.error || "Failed to send your message. Please try again.",
         variant: "destructive",
       });
     }
