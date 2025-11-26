@@ -8,7 +8,6 @@ const projects = [
     image: "/projects/Social.png",
     tags: ["React", "TailwindCSS", "Node.js", "Mongodb"],
     demoUrl: "https://social-ouxf.onrender.com/",
-    
   },
   {
     id: 2,

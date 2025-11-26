@@ -5,6 +5,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 
+
 export const ContactSection = () => {
   const { toast } = useToast();
 
@@ -25,7 +26,7 @@ export const ContactSection = () => {
     try {
       // Use relative path - works in production with Vercel's /api routes
       // For local dev, you'll need to run Vercel dev or use a proxy
-     const apiUrl = "http://localhost:5000/api/send-email";
+     const apiUrl = "https://portfolio-server-l8s4.onrender.com/api/send-email";
 
       
       await axios.post(apiUrl, userInfo);
