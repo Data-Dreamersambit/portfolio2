@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "",
+    title: "Social Media App",
     description: "A social media Application",
     image: "/projects/Social.png",
     tags: ["React", "TailwindCSS", "Node.js", "Mongodb"],
     demoUrl: "https://social-ouxf.onrender.com/",
+    githubUrl: "https://github.com/Data-Dreamersambit/social-app",
   },
   {
     id: 2,
-    title: "",
+    title: "Music Player App",
     description: "A music player appication",
     image: "/projects/Audio.png",
     tags: ["React", "TailwindCSS", "Node.js", "Mongodb"],
-    demoUrl: "https://yt-clone-kofa.onrender.com/",
-     
+    demoUrl: "https://audio-player-rkod.onrender.com/",
+    githubUrl: "https://github.com/Data-Dreamersambit/audio-player",
   },
   {
     id: 3,
-    title: "",
-    description:
-      "Youtube like platform",
+    title: "YouTube Clone",
+    description: "Youtube like platform",
     image: "/projects/Video.png",
     tags: ["React", "Node.js", "Tailwindcss", "Mongodb"],
-    demoUrl: "https://audio-player-rkod.onrender.com/",
-    githubUrl: "#",
+    demoUrl: "https://yt-clone-kofa.onrender.com/",
+    githubUrl: "https://github.com/Data-Dreamersambit/yt-clone",
   },
 ];
 

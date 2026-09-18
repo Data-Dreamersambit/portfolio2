@@ -182,7 +182,7 @@ export const ContactSection = () => {
               )}
               disabled={isSubmitting}
             >
-              {isSubmitting ? "Sending..." : "Send Message"}
+              {isSubmitting ? "Waking up server, this can take up to 30s..." : "Send Message"}
               <Send size={16} />
             </button>
           </form>
